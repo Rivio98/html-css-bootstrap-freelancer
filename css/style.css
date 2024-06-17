@@ -16,10 +16,14 @@ header {
 
 .jumbo {
     background-color: #1ABC9C;
-    padding: 20px 0px;
 }
 
 .jumbo-content {
     height: 300px;
     border: 1px solid #fff;
+}
+
+.content {
+    border: 1px solid black;
+    height: 100px;
 }
