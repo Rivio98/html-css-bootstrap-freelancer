@@ -21,7 +21,8 @@ header,
 
 .jumbo,
 .about,
-.card {
+.card,
+.bg-green {
     background-color: #1ABC9C;
 }
 
@@ -70,4 +71,12 @@ img {
     background-color: black;
     vertical-align: middle;
     margin-bottom: 10px;
+}
+
+.form-control {
+    border: none;
+    display: block;
+    border-bottom: 1px solid gray;
+    padding: 0px;
+
 }
