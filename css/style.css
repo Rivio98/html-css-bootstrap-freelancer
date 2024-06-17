@@ -20,23 +20,41 @@ header,
 }
 
 .jumbo,
-.about {
+.about,
+.card {
     background-color: #1ABC9C;
 }
 
-.jumbo-content {
-    height: 300px;
-    border: 1px solid #fff;
-}
 
-.content {
-    border: 1px solid black;
-    height: 100px;
-}
 
 .navbar-toggler {
     padding: 5px 10px;
     color: gray;
     align-items: center;
     border: 1px solid #fff;
+}
+
+.card {
+    width: 100%;
+    align-items: center;
+    border: none;
+}
+
+img {
+    width: 100%;
+}
+
+.card img {
+    width: 50%;
+}
+
+.lines:before,
+.lines:after {
+    display: inline-block;
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: #fff;
+    vertical-align: middle;
+    margin-bottom: 10px;
 }
