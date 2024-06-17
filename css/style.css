@@ -5,8 +5,13 @@
 }
 
 /* Style classes */
-header {
+header,
+.bottom-footer {
     background-color: #2C3D50;
+}
+
+.top-footer {
+    background-color: #3B546D;
 }
 
 .header-content {
@@ -14,7 +19,8 @@ header {
     border: 1px dotted #fff;
 }
 
-.jumbo {
+.jumbo,
+.about {
     background-color: #1ABC9C;
 }
 
