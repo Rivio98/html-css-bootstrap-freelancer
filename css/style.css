@@ -33,3 +33,10 @@ header,
     border: 1px solid black;
     height: 100px;
 }
+
+.navbar-toggler {
+    padding: 5px 10px;
+    color: gray;
+    align-items: center;
+    border: 1px solid #fff;
+}
