@@ -80,3 +80,15 @@ img {
     padding: 0px;
 
 }
+
+
+.icons {
+    padding: 10px 12px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.link-start {
+    color: #1ABC9C;
+    text-decoration: none;
+}
