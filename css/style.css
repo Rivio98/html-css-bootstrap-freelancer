@@ -42,19 +42,32 @@ header,
 
 img {
     width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
 .card img {
     width: 50%;
 }
 
-.lines:before,
-.lines:after {
+.lines-white:before,
+.lines-white:after {
     display: inline-block;
     content: '';
     width: 100px;
     height: 3px;
     background-color: #fff;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.lines-black:before,
+.lines-black:after {
+    display: inline-block;
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: black;
     vertical-align: middle;
     margin-bottom: 10px;
 }
